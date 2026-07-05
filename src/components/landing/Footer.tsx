@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { MessageCircle, Instagram, MapPin, Phone, ExternalLink } from "lucide-react";
-import logoAsset from "@/assets/tecnolife-logo.png";
+import logoAsset from "@/assets/tecnolife-logo.png.asset.json";
 import { whatsappUrl, instagramUrl, INSTAGRAM_FALLBACK_URL } from "@/components/Header";
 import { trackWhatsAppClick, trackInstagramClick } from "@/lib/analytics";
 
@@ -59,15 +59,15 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid gap-10 md:grid-cols-3">
         <div>
           <div className="inline-flex items-center rounded-xl border border-border/60 bg-card/80 px-4 py-3 shadow-sm backdrop-blur-sm">
-<img
-  src={logoAsset}
-  alt="Tecnolife Celulares"
-  width={200}
-  height={64}
-  loading="lazy"
-  decoding="async"
-  className="h-14 w-auto max-w-[220px] object-contain drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)]"
-/>
+            <img
+              src={logoAsset.url}
+              alt="Tecnolife Celulares"
+              width={200}
+              height={64}
+              loading="lazy"
+              decoding="async"
+              className="h-14 w-auto max-w-[220px] object-contain drop-shadow-[0_1px_2px_rgba(0,0,0,0.15)]"
+            />
           </div>
           <p className="mt-4 text-sm text-muted-foreground leading-relaxed max-w-sm">
             Tecnologia, confiança e praticidade em um só lugar. Especialistas em celulares,

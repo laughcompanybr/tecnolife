@@ -1,2 +1,0 @@
-"# Tecnolife"  
-"# Tecnolife"  

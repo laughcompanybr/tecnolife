@@ -16,7 +16,7 @@ const brands: Brand[] = [
   { name: "JBL", domain: "jbl.com" },
 ];
 
-const LOGO_TOKEN = import.meta.env.VITE_LOGO_DEV_API_KEY="pk_eAYV65m-SNOEEjHn2fQw4w";
+const LOGO_TOKEN = import.meta.env.VITE_CONNECTOR_LOGO_DEV_API_KEY;
 
 function logoUrl(domain: string) {
   return `https://img.logo.dev/${domain}?token=${LOGO_TOKEN}&size=160&format=png&retina=true`;

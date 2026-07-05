@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X, MessageCircle } from "lucide-react";
-import logo from "@/assets/tecnolife-logo.png";
+import logoAsset from "@/assets/tecnolife-logo.png.asset.json";
 import { trackWhatsAppClick } from "@/lib/analytics";
 
 
@@ -85,13 +85,13 @@ export function Header() {
           scrolled ? "h-16" : "h-20"
         }`}
       >
-<a href="#inicio" className="flex items-center gap-2 shrink-0" aria-label="Tecnolife Celulares - Ir ao início">
-  <img
-    src={logo}
-    alt="Tecnolife Celulares"
-    className={`transition-all duration-300 ${scrolled ? "h-10" : "h-12"} w-auto`}
-  />
-</a>
+        <a href="#inicio" className="flex items-center gap-2 shrink-0" aria-label="Tecnolife Celulares - Ir ao início">
+          <img
+            src={logoAsset.url}
+            alt="Tecnolife Celulares"
+            className={`transition-all duration-300 ${scrolled ? "h-10" : "h-12"} w-auto`}
+          />
+        </a>
 
         <nav className="hidden lg:flex items-center gap-8" aria-label="Navegação principal">
           {nav.map((n) => (
