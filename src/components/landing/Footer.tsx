@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { MessageCircle, Instagram, MapPin, Phone, ExternalLink } from "lucide-react";
-import logoAsset from "@/assets/tecnolife-logo.png";
+import logoAsset from "@/assets/tecnolife-logo.png?url";
 import { whatsappUrl, instagramUrl, INSTAGRAM_FALLBACK_URL } from "@/components/Header";
 import { trackWhatsAppClick, trackInstagramClick } from "@/lib/analytics";
 
