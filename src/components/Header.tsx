@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X, MessageCircle } from "lucide-react";
-import logoAsset from "@/assets/tecnolife-logo.png.asset.json";
+import logoAsset from "@/assets/tecnolife-logo.png";
 import { trackWhatsAppClick } from "@/lib/analytics";
 
 

@@ -9,7 +9,7 @@ import { HowItWorks } from "@/components/landing/HowItWorks";
 import { About } from "@/components/landing/About";
 import { FAQ } from "@/components/landing/FAQ";
 import { FinalCTA } from "@/components/landing/FinalCTA";
-import heroImg from "@/assets/hero.jpg.asset.json";
+import heroImg from "@/assets/hero.jpg";
 import { GA_MEASUREMENT_ID } from "@/lib/analytics";
 
 const Footer = lazy(() =>
