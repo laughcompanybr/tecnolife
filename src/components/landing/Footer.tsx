@@ -60,7 +60,7 @@ export function Footer() {
         <div>
           <div className="inline-flex items-center rounded-xl border border-border/60 bg-card/80 px-4 py-3 shadow-sm backdrop-blur-sm">
             <img
-              src={logoAsset.url}
+              src={logoAsset}
               alt="Tecnolife Celulares"
               width={200}
               height={64}

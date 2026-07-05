@@ -87,7 +87,7 @@ export function Header() {
       >
         <a href="#inicio" className="flex items-center gap-2 shrink-0" aria-label="Tecnolife Celulares - Ir ao início">
           <img
-            src={logoAsset.url}
+            src={logoAsset}
             alt="Tecnolife Celulares"
             className={`transition-all duration-300 ${scrolled ? "h-10" : "h-12"} w-auto`}
           />
